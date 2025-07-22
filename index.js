@@ -11,7 +11,7 @@ app.use(express.json())
 dotenv.config()
 
 app.use(cors({
-    origin : "http://frontend-phi-three-18.vercel.app",
+    origin : "https://frontend-phi-three-18.vercel.app",
     credentials : true
 }))
 
